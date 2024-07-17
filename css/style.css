@@ -11,19 +11,53 @@
   nav {
     background-color: white;
     padding: 8px 16px;
-    
   }
-  
+
+
   #destinations {
     display: flex;
     justify-content: flex-start;
+
   }
  
   #actions {
     display: flex;
-    align-items: flex-;
-    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    justify-content:flex-end;
 
+  }
+
+  #hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #headers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #trending {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+
+  .CardSec  {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;  
+  justify-content: space-evenly;
+}
+
+  #subnav {
+    display: flex;
+    justify-content: space-between;
   }
 
   p {
@@ -84,10 +118,12 @@
   
   .card-footer {
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
   }
   
-  .card-footer * {
-    margin-top: 8px;
+  .card-footer *{
+    margin-top: 0px;
   }
   
   #subnav {
